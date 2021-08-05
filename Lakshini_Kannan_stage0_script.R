@@ -1,16 +1,16 @@
-vara<- "Name : Lakshini Kannan"
+vara<- "Lakshini Kannan"
 
-varb<- "Email : lakshinikannan@gmail.com"
+varb<- "lakshinikannan@gmail.com"
 
-varc<- "Slack Username : @Lakshini"
+varc<- "@Lakshini"
 
-vard<- "Biostack : Genomics"
+vard<- "Genomics"
 
-vare<- "Twitter : @LakshiniKannan"
+vare<- "@LakshiniKannannnn"
 
-varf<- "HAMMING : "
+
 varg<- "@Lakshini"
-varh<- "@LakshiniKannan"
+varh<- "@LakshiniKannannnn"
 
 
 HD <- function(str1, str2){
@@ -32,8 +32,9 @@ HD <- function(str1, str2){
   return(sum(string.temp1 != string.temp2))
 }
 
+hamming <- HD(varg,varh)
 
 # sum(as.vector(varh) != as.vector(varg))
 
 
-print(paste(list(vara, varb, varc, vard, vare, varf, hamming)))
+print(paste(list(vara, varb, varc, vard, vare,hamming)))
